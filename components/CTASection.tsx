@@ -22,13 +22,13 @@ export default function CTASection() {
         className="absolute bottom-20 right-[15%] w-16 h-16 border border-[var(--border)] rounded-full opacity-30"
       />
 
-      <div className="w-full max-w-7xl mx-auto px-6 relative z-10">
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="w-full max-w-3xl mx-auto text-center flex flex-col items-center"
+          className="max-w-3xl mx-auto flex flex-col items-center text-center"
         >
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--accent-muted)] border border-[var(--accent)]/30 mb-8">

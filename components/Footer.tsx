@@ -30,8 +30,8 @@ const socialLinks = [
 export default function Footer() {
   return (
     <footer className="border-t border-[var(--border)] bg-[var(--background)]">
-      <div className="w-full max-w-7xl mx-auto px-6 py-12 lg:py-16">
-        <div className="w-full flex flex-col items-center text-center">
+      <div className="max-w-7xl mx-auto px-6 py-12 lg:py-16">
+        <div className="flex flex-col items-center text-center">
           {/* Brand */}
           <a href="#" className="inline-flex items-center gap-3 mb-4">
             <div className="w-10 h-10 bg-[var(--accent)] rounded-lg flex items-center justify-center">
@@ -64,7 +64,7 @@ export default function Footer() {
           </div>
 
           {/* Links Row */}
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16 md:gap-24 mb-12">
+          <div className="w-full flex flex-col sm:flex-row items-center justify-center gap-8 sm:gap-16 md:gap-24 mb-12">
             {/* Company */}
             <div>
               <h4 className="font-semibold mb-4 text-base">Company</h4>
@@ -123,7 +123,7 @@ export default function Footer() {
           </div>
 
           {/* Bottom Bar */}
-          <div className="pt-8 border-t border-[var(--border)]">
+          <div className="w-full pt-8 border-t border-[var(--border)]">
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <p className="text-sm text-[var(--foreground-subtle)]">
                 © 2025 UNI-FIED. All rights reserved.

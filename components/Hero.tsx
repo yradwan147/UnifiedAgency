@@ -42,8 +42,8 @@ export default function Hero() {
         className="absolute top-1/2 right-[10%] w-8 h-8 bg-[var(--accent)]/20 rounded-full"
       />
 
-      <div className="container-custom relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
+      <div className="max-w-7xl mx-auto px-6 relative z-10">
+        <div className="max-w-4xl mx-auto flex flex-col items-center text-center">
           {/* Badge */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -139,9 +139,9 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.7 }}
-            className="flex justify-center items-center w-full"
+            className="w-full max-w-2xl mx-auto"
           >
-            <div className="grid grid-cols-3 gap-6 sm:gap-10 md:gap-16 lg:gap-20 w-full max-w-2xl">
+            <div className="grid grid-cols-3 gap-6 sm:gap-10 md:gap-16 lg:gap-20">
               {stats.map((stat, index) => (
                 <motion.div
                   key={stat.label}
